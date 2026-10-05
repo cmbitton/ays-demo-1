@@ -1,0 +1,18 @@
+{
+  "name": "At Your Service",
+  "legalName": "At Your Service Mobile Bartending, LLC",
+  "domain": "https://www.aysbartending.com",
+  "email": "aysbartendingllc@yahoo.com",
+  "areas": ["Rhode Island", "Massachusetts", "Eastern Connecticut"],
+  "theKnot": "https://www.theknot.com/marketplace/redirect-560644?utm_source=vendor_website&utm_medium=banner&utm_term=10d542c3-74f5-4d59-a27a-cae28f8c714a&utm_campaign=vendor_badge_assets",
+  "navigation": [
+    {"label": "Home", "path": "/", "key": "home"},
+    {"label": "About Us", "path": "/about-us.html", "key": "about"},
+    {"label": "Services", "path": "/services.html", "key": "services"},
+    {"label": "Contact", "path": "/contact.html", "key": "contact"},
+    {"label": "Feedback", "path": "/feedback.html", "key": "feedback"}
+  ],
+  "supplies": ["Punch bowls and beverage containers", "Bar décor to complement your event’s theme, where applicable", "Ice buckets and wine buckets", "Bottle openers and wine keys", "Napkins and caddies", "Coolers, if needed", "A customized drink menu tailored to your preferences"],
+  "coordination": ["Liquor and soft drinks", "Ice", "Cups or glassware", "Fresh fruit garnishes"],
+  "events": ["Weddings", "Private parties", "Corporate events", "Organization functions", "Birthdays", "Anniversaries", "Boat dock parties", "Nonprofit events"]
+}

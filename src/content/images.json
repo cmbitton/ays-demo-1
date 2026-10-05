@@ -1,0 +1,13 @@
+{
+  "gina": {"file": "gina-stairway_orig.jpg", "alt": "Gina behind a white event bar beside a staircase decorated with flowers"},
+  "christian": {"file": "christian-pic_orig.jpg", "alt": "Christian tending a white bar beside a flower-lined staircase"},
+  "couple": {"file": "nbch-couple_orig.jpg", "alt": "A wedding couple beside the event bar with a gold Cheers sign"},
+  "bar": {"file": "nbch-bar_orig.jpg", "alt": "An event bar arranged with drinks, cocktail menus, and a gold Cheers sign"},
+  "boat": {"file": "resized-img-1892-1_orig.jpeg", "alt": "Guests gathered aboard a boat with an At Your Service Bartending banner"},
+  "owners": {"file": "bg-1228950795.jpg", "alt": "Gina and Christian seated together on a sofa"},
+  "cocktails": {"file": "his-and-hers_orig.jpg", "alt": "Yellow and coral signature cocktails, with a wedding couple holding their drinks"},
+  "menu": {"file": "bar-menu-idea-starfish_orig.jpg", "alt": "A personalized wedding cocktail menu with starfish details and an At Your Service sign"},
+  "setup": {"file": "ays-bar-set-up_orig.jpg", "alt": "Bottles, fresh garnishes, and glasses arranged at an AYS event bar"},
+  "logo": {"file": "logo-winner_orig.jpg", "alt": "At Your Service Bartending logo", "widths": [80, 160, 320]},
+  "tips": {"file": "aysb-tips_orig.png", "alt": "TIPS certified", "widths": [150, 300]}
+}

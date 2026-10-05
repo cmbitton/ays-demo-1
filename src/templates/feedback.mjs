@@ -1,0 +1,7 @@
+import {quote, feedbackForm, callout} from './components.mjs';
+export const meta = {key:'feedback',path:'/feedback.html',title:'Client Feedback & Testimonials | At Your Service Bartending',description:'Read the experiences our clients have shared about At Your Service Bartending, from wedding planning to the last toast. We would love to hear your feedback.'};
+export function render({site,reviews}) {
+ return `<section class="container page-intro feedback-intro"><p class="eyebrow">KIND WORDS, GREAT MEMORIES</p><h1>The drinks are only<br><em>part of the story.</em></h1><p>It’s the people, the celebrations, and the moments in between that stay with us. Here’s what our clients have shared.</p><a class="text-link" href="#share-feedback">Share your experience <span aria-hidden="true">↓</span></a></section>
+ <section class="container feedback-reviews" aria-label="Client testimonials"><div class="review-grid">${reviews.filter(r=>r.page==='feedback').map(r=>quote(r)).join('')}</div><p class="testimonial-note">Thank you to everyone who has shared their experience.</p></section>
+ <section class="feedback-form-section" id="share-feedback"><div class="container feedback-form-grid"><div><p class="eyebrow">WE’D LOVE TO HEAR FROM YOU</p><h2>How was <em>your celebration?</em></h2><p>Your feedback means a lot to us. Tell us about your experience with At Your Service.</p></div><div>${feedbackForm(site)}</div></div></section>${callout()}`;
+}
