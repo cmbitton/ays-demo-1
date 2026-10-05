@@ -1,6 +1,6 @@
 export const escape = (value) => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 
-export const arrow = '<span aria-hidden="true">↗</span>';
+export const arrow = '<span class="arrow-icon" aria-hidden="true"><svg viewBox="0 0 16 16" focusable="false"><path d="M4 12 12 4M5 4h7v7"/></svg></span>';
 export const button = (label, href = '/contact.html', secondary = false) => `<a class="button${secondary ? ' button-secondary' : ''}" href="${escape(href)}">${escape(label)} ${arrow}</a>`;
 export const textLink = (label, href) => `<a class="text-link" href="${escape(href)}">${escape(label)} ${arrow}</a>`;
 
