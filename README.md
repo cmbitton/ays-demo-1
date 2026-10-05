@@ -16,6 +16,12 @@ Open **http://127.0.0.1:4173**. `npm run dev` builds once and starts the same pr
 
 The production artifact is **`dist/`**. Deploy only this directory. It contains complete HTML for `/`, `/about-us.html`, `/services.html`, `/contact.html`, `/feedback.html`, and `/404.html`, plus optimized assets and SEO files. The preview script is development tooling and is never deployed.
 
+## GitHub Pages
+
+The `Deploy to GitHub Pages` workflow builds the site with the repository base path `/ays-demo-1/` and publishes `dist/` whenever `main` changes. In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**. The resulting site is served at `https://cmbitton.github.io/ays-demo-1/`; assets, navigation, canonical URLs, sitemap, and manifest use that project path.
+
+To reproduce that build locally, run `SITE_URL=https://cmbitton.github.io SITE_BASE_PATH=/ays-demo-1 npm run build`. Other hosts can keep the default empty `SITE_BASE_PATH` for a root deployment.
+
 ## Editing
 
 | Change | File |
